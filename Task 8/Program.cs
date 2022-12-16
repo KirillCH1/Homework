@@ -3,13 +3,9 @@
 
 Console.Write("Введите число : ");
 int number = int.Parse(Console.ReadLine() ??"");
-int i = 1;
+int i = 2;
 while( i < number+1 )
 {
-    int result = i %2;
-    if(result ==0)
-    {
-        Console.Write($"{i}, ");
-    }
-    i++;
+    Console.Write($"{i}, ");
+    i=i+2;
 }
