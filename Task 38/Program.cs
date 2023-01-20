@@ -13,7 +13,7 @@ PrintArray(array, sum);
 
 void PrintArray(double[] array, double sum)
 {
-    Console.WriteLine($"[{String.Join(", ", array)}] сумма нечетных позиций --> {sum}");
+    Console.WriteLine($"[{String.Join(", ", array)}]  --> {sum}");
 }
 
 double FindingMiniMaxValue(double[] array)
