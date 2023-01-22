@@ -27,7 +27,7 @@ double FindingMiniMaxValue(double[] array)
         if (min > array[i])
             min = array[i];
     }
-    return min + max;
+    return min - max;
 }
 
 double[] СreateNewArray(int size)
